@@ -1,7 +1,7 @@
 class Inventor
-  attr_reader :first, :born, :passed
+  attr_reader :first, :last, :born, :passed
 
-  def initialize(first, born, passed)
+  def initialize(first, last, born, passed)
     @first = first
     @last = last
     @born = born
