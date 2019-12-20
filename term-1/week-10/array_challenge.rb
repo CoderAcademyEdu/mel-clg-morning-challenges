@@ -1,5 +1,5 @@
 class Inventor
-  attr_reader :first, ::born, :passed
+  attr_reader :first, :born, :passed
 
   def initialize(first, born, passed)
     @first = first
