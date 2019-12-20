@@ -7,6 +7,10 @@ class Inventor
     @born = born
     @passed = passed
   end
+
+  def to_s
+    @first + ' ' + @last
+  end
 end
 
 inventors = [
